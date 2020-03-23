@@ -124,6 +124,7 @@ void main_loop() {
             logMessage(ERROR, "Failed to create window");
             return false;
         }
+        return true;
     }
 #endif
 
